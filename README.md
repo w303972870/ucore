@@ -1,15 +1,16 @@
-# 项目背景
-
-- 需要接入ldap的项目较多，但是每一个系统不需要都写一套对接ldap的代码，甚至有的时候不同的开发语言实现ldap对接会比较复杂，所以才写了这套ldap统一用户对接中心
-
 # 本说明使用Editor.md编辑
 
 ![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
 
 ![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
 
+# 项目背景
+
+- 需要接入ldap的项目较多，但是每一个系统不需要都写一套对接ldap的代码，甚至有的时候不同的开发语言实现ldap对接会比较复杂，所以才写了这套ldap统一用户对接中心
 
 # 配置文件
+> 源码的config目录中有一个示例ini
+
 ```
 [ucore]
 daemon = False #daemon方式后台运行，默认true
