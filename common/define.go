@@ -26,5 +26,7 @@ func checkIsOk() gin.HandlerFunc { return func( c *gin.Context ) {
         c.Next()
     } else {
         c.JSON( lib.StatusServiceUnavailable , ulog.ULogs.GinJson( lib.StatusServiceUnavailable , "非法请求", nil ) )
+        c.Abort()
+        return
     }
 }}
